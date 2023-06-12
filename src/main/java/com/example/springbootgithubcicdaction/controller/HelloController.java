@@ -12,6 +12,7 @@ public class HelloController {
 
     @GetMapping("/test")
     public String test(){
+        System.out.println("Test SOP");
         return "This is spring boot github action project!";
     }
 }
