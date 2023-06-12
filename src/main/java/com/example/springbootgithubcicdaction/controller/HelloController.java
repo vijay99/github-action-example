@@ -14,6 +14,7 @@ public class HelloController {
     public String test(){
         System.out.println("Test SOP");
         System.out.println("Test1 SOP");
+        System.out.println("Test2 SOP");
         return "This is spring boot github action project!";
     }
 }
